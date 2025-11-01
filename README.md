@@ -4,8 +4,8 @@
 
 ### Description
 The system models a multi-tier supply chain network comprising suppliers, processing units, manufacturers,
-distributors, and retailers. Each transaction is mined into a block containing cryptographically hashed metadata, ensuring immutability and traceability. The simulator utilizes Dijkstra’s algorithm to compute optimal routing paths based on cost, time, and distance. Network re-silience is evaluated using articulation point detection to identify critical nodes whose failure could disrupt the entire supply chain.
-A dynamic web interface allows users to upload custom node and edge data in JSON format, view live updates, and analyze transaction flows through interactive visualizations powered by vis.js and Flask-SocketIO. The system pro-vides actionable insights into both performance optimization and structural weaknesses, making it suitable for educational use, logistics planning, and supply network research.
+distributors, and retailers. Each transaction is mined into a block containing cryptographically hashed metadata, ensuring immutability and traceability. The simulator utilizes Dijkstra’s algorithm to compute optimal routing paths based on cost, time, and distance. Network resilience is evaluated using articulation point detection to identify critical nodes whose failure could disrupt the entire supply chain. <br>
+A dynamic web interface allows users to upload custom node and edge data in JSON format, view live updates, and analyze transaction flows through interactive visualizations powered by vis.js and Flask-SocketIO. The system provides actionable insights into both performance optimization and structural weaknesses, making it suitable for educational use, logistics planning, and supply network research.
 
 ### Resources
 * [Draft Paper](https://github.com/angelavarghese/SyncChain/blob/main/draft-paper-syncchain.pdf)
