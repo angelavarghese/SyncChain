@@ -1,18 +1,27 @@
-# DAA-Lab-EL
+# SyncChain
 
 ## Blockchain Simulation for Supply Chain Management
 
-### Resources
+### Description
+The system models a multi-tier supply chain network comprising suppliers, processing units, manufacturers,
+distributors, and retailers. Each transaction is mined into a block containing cryptographically hashed metadata, ensuring immutability and traceability. The simulator utilizes Dijkstra’s algorithm to compute optimal routing paths based on cost, time, and distance. Network re-silience is evaluated using articulation point detection to identify critical nodes whose failure could disrupt the entire supply chain.
+A dynamic web interface allows users to upload custom node and edge data in JSON format, view live updates, and analyze transaction flows through interactive visualizations powered by vis.js and Flask-SocketIO. The system pro-vides actionable insights into both performance optimization and structural weaknesses, making it suitable for educational use, logistics planning, and supply network research.
 
-* [Report](https://docs.google.com/document/d/1Xk8POtbVw8_nhK8Dc9fjyZ7ZSNqfZTebjM1RemIaBzs/edit?usp=sharing)
-* [Paper](https://www.overleaf.com/3348832666xdwwhvnczvvv#f60019)
+### Resources
+* [Draft Paper](https://github.com/angelavarghese/SyncChain/blob/main/draft-paper-syncchain.pdf)
+
+### Preview
+![Landing Page](https://raw.githubusercontent.com/angelavarghese/SyncChain/main/current-project/images/landing-page.png)
+![Network Visualization](https://raw.githubusercontent.com/angelavarghese/SyncChain/main/current-project/images/network_50node-200edge.png)
+![Transactions Page](https://raw.githubusercontent.com/angelavarghese/SyncChain/main/current-project/images/blockchain_50node-200edge.png)
+
 
 ## Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
-git clone <repo-url>
-cd <project-folder>
+git clone https://github.com/angelavarghese/SyncChain.git
+cd current-project
 ```
 
 ### 2. Create Virtual Environment
@@ -38,6 +47,6 @@ python app.py
 ```
 OR
 ```bash
-python app.py
+python3 app.py
 ```
 ### Go to [App Link](http://localhost:5000/)
